@@ -1,0 +1,6 @@
+autopep8==2.0.2
+jeepney==0.8.0
+loguru==0.6.0
+notify-py==0.3.42
+pycodestyle==2.10.0
+tomli==2.0.1
