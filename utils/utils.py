@@ -12,7 +12,7 @@ class Utils():
     def quitApp(self):
         self.clear()
         print("\n\n")
-        print("\033[1m Thanks for using me! :p")
+        print("\033[1m Thanks for using me! :p\n Have a great day!\033[m")
         print('\n\n\n\n')
         exit()
 

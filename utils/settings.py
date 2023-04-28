@@ -1,5 +1,5 @@
 # settings functions
-from utils import Utils
+from .utils import Utils
 
 
 class Settings():
@@ -7,7 +7,7 @@ class Settings():
 
     # change focus or break time
     def timeChange(self, focus=True, error: str = '') -> None:
-        from pomodoro import Pomodoro
+        from .pomodoro import Pomodoro
 
         suffix = "focus" if focus else "break"
         data = self.utils.fetchData('settings')

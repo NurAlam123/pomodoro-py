@@ -1,6 +1,6 @@
 import time
 
-from utils import Utils
+from .utils import Utils
 
 
 class Pomodoro():
@@ -56,7 +56,7 @@ class Pomodoro():
 
     # settings
     def settings(self):
-        from settings import Settings
+        from .settings import Settings
 
         self.utils.header("Settings")
         options = '''
